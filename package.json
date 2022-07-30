@@ -1,6 +1,6 @@
 {
   "name": "express-decorator-api-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A CLI to bootstrap express decorator on your project",
   "author": "Paranat Klinhom <paranat_kli@topspin.space>",
   "homepage": "blog.topspin.space",
@@ -29,6 +29,7 @@
     "esm": "^3.2.25",
     "git-pull-or-clone": "^2.0.2",
     "inquirer": "^6.2.2",
-    "listr": "^0.14.3"
+    "listr": "^0.14.3",
+    "shelljs": "^0.8.5"
   }
 }
