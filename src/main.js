@@ -19,6 +19,7 @@ export async function createProject(options) {
     {
       title: 'Clone Repository',
       task: () => {
+        console.log(`Path: ${templateDirectory}`)
         shell.cd(templateDirectory)
         shell.exec('git clone https://github.com/topspinppy/express-decorator-api-boilerplate')
       }
