@@ -28,6 +28,7 @@
     "conf": "^10.2.0",
     "esm": "^3.2.25",
     "git-pull-or-clone": "^2.0.2",
-    "inquirer": "^6.2.2"
+    "inquirer": "^6.2.2",
+    "listr": "^0.14.3"
   }
 }
