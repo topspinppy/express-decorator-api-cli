@@ -1,0 +1,29 @@
+{
+  "name": "@topspinppy/express-decorator-api-generator",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap express decorator on your project",
+  "bin": {
+    "@topspinppy/express-decorator-api-generator": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chalk": "^5.0.1",
+    "conf": "^10.2.0",
+    "esm": "^3.2.25",
+    "git-pull-or-clone": "^2.0.2",
+    "inquirer": "^6.2.2"
+  }
+}
