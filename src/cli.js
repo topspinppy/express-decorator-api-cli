@@ -35,14 +35,6 @@ async function promptForMissingOptions(options) {
   }
 
   const questions = [];
-  if (!options.git) {
-    questions.push({
-      type: 'confirm',
-      name: 'git',
-      message: 'initialized git?',
-      default: false,
-    });
-  }
 
   if (!options.projectName) {
     questions.push({
