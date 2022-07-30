@@ -1,6 +1,6 @@
 {
   "name": "express-decorator-api-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI to bootstrap express decorator on your project",
   "author": "Paranat Klinhom <paranat_kli@topspin.space>",
   "homepage": "blog.topspin.space",
@@ -11,6 +11,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": "topspinppy/express-decorator-api-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
