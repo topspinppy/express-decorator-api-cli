@@ -1,7 +1,9 @@
 {
-  "name": "@topspinppy/express-decorator-api-generator",
-  "version": "1.0.0",
+  "name": "express-decorator-api-generator",
+  "version": "1.0.2",
   "description": "A CLI to bootstrap express decorator on your project",
+  "author": "Paranat Klinhom <paranat_kli@topspin.space>",
+  "homepage": "blog.topspin.space",
   "bin": {
     "@topspinppy/express-decorator-api-generator": "bin/create-project",
     "create-project": "bin/create-project"
@@ -14,10 +16,11 @@
   },
   "keywords": [
     "cli",
-    "create-project"
+    "create-project",
+    "express",
+    "api"
   ],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "arg": "^5.0.2",
     "chalk": "^5.0.1",
