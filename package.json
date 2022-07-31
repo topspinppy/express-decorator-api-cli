@@ -1,5 +1,5 @@
 {
-  "name": "express-decorator-api-generator",
+  "name": "@topspin-space/express-decorator-api-generator",
   "version": "1.0.7",
   "description": "A CLI to bootstrap express decorator on your project",
   "author": "Paranat Klinhom <paranat_kli@topspin.space>",
